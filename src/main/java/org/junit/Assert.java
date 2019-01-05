@@ -96,6 +96,11 @@ public class Assert {
         fail(null);
     }
 
+    assertGreaterThan(int o1, int o2, java.util.Comparator comparator){
+        
+    }
+    
+    
     /**
      * Asserts that two objects are equal. If they are not, an
      * {@link AssertionError} is thrown with the given message. If
