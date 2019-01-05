@@ -1,5 +1,6 @@
 package org.junit;
 
+import junit.framework.T;
 import org.hamcrest.Matcher;
 import org.hamcrest.MatcherAssert;
 import org.junit.function.ThrowingRunnable;
@@ -43,6 +44,11 @@ public class Assert {
         }
     }
 
+    
+    static public void assertGreaterThan(int o1, int o2, java.util.Comparator comparator){
+    /*non ho idea di come farlo, non ho ancora dato prog2!*/
+    }    
+    
     /**
      * Asserts that a condition is true. If it isn't it throws an
      * {@link AssertionError} without a message.
